@@ -1,0 +1,1 @@
+Implemented CatBoost to develop a predictive model for brain cancer outcomes, optimizing accuracy by effectively handling complex and categorical medical data. The project demonstrates the potential of AI in enhancing diagnostic precision in healthcare.

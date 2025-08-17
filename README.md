@@ -1,3 +1,4 @@
+
 # CatBoost Classifier Implementation
 
 This project showcases the implementation of the CatBoost classification model on a dataset to predict a binary outcome. The notebook walks through the process of data preprocessing, model training, and robust evaluation using k-Fold Cross Validation.
@@ -27,3 +28,28 @@ The project requires Python and the following libraries:
 You can install CatBoost using pip:
 ```bash
 pip install catboost
+````
+
+## How to Use
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/your-username/catboost-classifier-project.git](https://github.com/your-username/catboost-classifier-project.git)
+    cd catboost-classifier-project
+    ```
+
+2.  **Ensure you have the dataset:**
+    Place your `Data.csv` file in the root directory of the project.
+
+3.  **Run the Jupyter Notebook:**
+    Open and execute the `catboost.ipynb` notebook in a Jupyter environment (like Jupyter Lab or Google Colab) to see the full workflow, from data loading to model evaluation.
+
+## Results
+
+The CatBoost classifier was evaluated using 10-fold cross-validation, yielding the following results:
+
+  * **Average Accuracy:** 97.26%
+  * **Standard Deviation:** 2.03%
+
+The confusion matrix on a single test split also showed excellent performance with very few misclassifications.
